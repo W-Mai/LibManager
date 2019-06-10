@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="XUser">
+    <Position X="4.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgAIAAAAAgAAAAAAEABBAIAAAAgAAAAA=</HashCode>
+      <FileName>XUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XBook">
+    <Position X="0.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAgAAAIAAAAIAAAABEABAAAEAAAAAAAAA=</HashCode>
+      <FileName>XBook.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Permission">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAI=</HashCode>
+      <FileName>Definitions.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
