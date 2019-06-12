@@ -5,10 +5,10 @@
 class XUser {
 public:
 	XUser();
-	XUser(const void *);
+	XUser(int ID,const char * pass, const char * name, bool gender, const char * tel, Permission perm);
+	XUser(const void * bin);
 	operator void * ();
 	~XUser();
-private:
 	int ID;
 	std::string password;
 	std::string name;
@@ -17,3 +17,7 @@ private:
 	Permission permission;
 };
 
+class XUserWithBook {
+	XUser user;
+	XBookMarks bookmarks;
+};

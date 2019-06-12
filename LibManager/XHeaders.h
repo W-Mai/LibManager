@@ -1,6 +1,6 @@
 #pragma once
 
-#define DEBUG
+//#define DEBUG
 
 #ifdef DEBUG
 #define DE(n) std::cout << "OK [" << n << "]" << std::endl;
@@ -11,7 +11,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <cctype>
+#include <climits>
 
 #include "Definitions.h"
 

@@ -6,12 +6,11 @@ class XBook {
 public:
 	XBook();
 	
-
+	XBook(int ID, const char * name, const char * desc, const char * author, const char * press);
 	XBook(const void * dat);
 	operator void * ();
 	~XBook();
 	
-private:
 	int ID;
 	std::string name;
 	std::string description;
@@ -19,3 +18,7 @@ private:
 	std::string press;
 };
 
+class XBookMarks {
+
+
+};
